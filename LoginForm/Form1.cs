@@ -47,6 +47,7 @@ namespace LoginForm
 
         private void btn_dangnhap_Click(object sender, EventArgs e)
         {
+            //Tạo trang thứ 2 để làm gì đó...
             Form2 fm = new Form2();
             if (this.txt_username.Text == "nhutquang" && this.txt_password.Text == "123456")
             {
